@@ -1,6 +1,5 @@
 package com.nirmal.demo.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nirmal.demo.model.response.AuthenticationResponse;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

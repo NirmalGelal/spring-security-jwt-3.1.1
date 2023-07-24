@@ -39,7 +39,7 @@ public class AuthApi {
                 .refreshToken(refreshToken)
                 .username(data.getUsername())
                 .build();
-        response.setSuccessValues(authenticationResponse,"tokens retrieved successfully");
+        response.setSuccessValues(authenticationResponse,"tokens generated successfully");
         return response;
     }
 
